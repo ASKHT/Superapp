@@ -113,6 +113,10 @@ function Info() {
           marginTop: "12px",
         }}
         onClick={() => {
+          window.localStorage.setItem(
+            "selectedMovies",
+            JSON.stringify(selectedMovies)
+          );
           navigate("/showcase");
         }}
         disabled={selectedMovies.length < 3}
