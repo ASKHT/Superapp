@@ -1,8 +1,25 @@
-# React + Vite
+# Super App - React Capstone Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Page 1
 
-Currently, two official plugins are available:
+### Registeration Page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![](./src/assets/RegistrationPage.jpg)
+
+## Page 2
+
+### Categories Page
+
+![](./src/assets/CategoryPage.jpg)
+
+## Page 3
+
+### DashBoard Page
+
+![](./src/assets/DashboardPage.jpg)
+
+## Page 4
+
+### Entertainment Page
+
+![](./src/assets/EntertainmentPage.jpg)
