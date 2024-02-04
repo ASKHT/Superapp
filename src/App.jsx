@@ -1,8 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import Register from "./pages/Register";
-import Info from "./pages/Info";
-import Showcase from "./pages/Showcase";
-import Movies from "./pages/Movies";
+import Info from "../src/components/Info/index";
+import Showcase from "./pages/Showcase/Showcase";
+// import Movies from "./pages/Movies";
+import Entertainment from "./pages/Entertainment";
 function App() {
   return (
     <Routes>
@@ -10,7 +11,7 @@ function App() {
       <Route path="/register" element={<Register />} />
       <Route path="/info" element={<Info />} />
       <Route path="/showcase" element={<Showcase />} />
-      <Route path="/movies" element={<Movies />} />
+      <Route path="/movies" element={<Entertainment />} />
       <Route path="*" element={<h1>404 Route not found 😞</h1>} />
     </Routes>
   );

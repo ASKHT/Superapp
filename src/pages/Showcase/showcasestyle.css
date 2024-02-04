@@ -1,0 +1,57 @@
+.showcase {
+  background-color: #000;
+  color: white;
+  overflow-y: hidden;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 3fr 1fr 2fr;
+}
+
+.box5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.box4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.box3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.wrapper {
+  border-radius: 5px;
+}
+
+.wrapper > div {
+  padding: 0.75rem;
+}
+
+.showcase-btn {
+  position: fixed;
+  background-color: #148a08;
+  color: white;
+  padding: 15px 25px;
+  right: 100px;
+  bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box2 {
+  transform: translateY(-3rem);
+}

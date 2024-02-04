@@ -1,0 +1,45 @@
+.timer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1e2343;
+  border-radius: 20px;
+  /* padding: 28px 28px; */
+  width: 61rem;
+  height: 12rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.time {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+}
+
+.colon {
+  margin-top: 20px;
+}
+
+.time-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.increase,
+.decrease {
+  cursor: pointer;
+}
+
+.timer-btn {
+  background: #ff6a6a;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}

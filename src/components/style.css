@@ -1,0 +1,125 @@
+/* style.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Single Day", sans-serif;
+  overflow-y: hidden;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.childleft {
+  position: relative;
+}
+.childleft img {
+  position: relative;
+  object-fit: cover;
+  object-position: cover;
+  height: 100vh;
+  width: 45vw;
+}
+.childleft h2 {
+  width: 80%;
+  font-size: 2.5em;
+  position: absolute;
+  color: #fff;
+  bottom: 10%;
+  left: 5%;
+}
+
+.childright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+  background-color: black;
+  color: white;
+  overflow-y: auto;
+}
+
+.childrightinner {
+  max-width: 80%; /* Adjust the maximum width as needed */
+  align-items: center;
+  text-align: center;
+}
+
+.childright form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  gap: 1rem;
+}
+
+.childright input,
+.childright button,
+.childright label {
+  width: 60%;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.childright input {
+  background-color: #292929;
+  color: white;
+}
+
+.childright button {
+  background-color: #72db73;
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.childright p {
+  margin: 0;
+}
+
+.childright .spanset {
+  color: #72db73;
+}
+
+.childright p {
+  margin: 0;
+  color: red;
+  /* Align the error messages to the left side */
+  margin-top: 0.1rem; /* Add minimal spacing at the top */
+  margin-bottom: 0.1rem; /* Add spacing at the bottom */
+}
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Adjust the gap as needed */
+  margin-top: 1rem; /* Add margin at the top */
+  text-align: center;
+}
+
+.checkbox input {
+  width: 15px; /* Adjust the width of the checkbox as needed */
+  height: 15px; /* Adjust the height of the checkbox as needed */
+}
+
+.checkbox p {
+  margin: 0;
+  color: white;
+}
+.spantag {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.spantag p {
+  color: #7c7c7c;
+  align-items: center;
+}
