@@ -13,7 +13,7 @@ const Weather = () => {
     const fetchData = async () => {
       try {
         const res = await fetch(
-          "https://api.openweathermap.org/data/2.5/weather?q=Bengaluru&appid=de4b875846b7d681341f7673dc62a0b2"
+         "your api "
         );
 
         if (!res.ok) {
